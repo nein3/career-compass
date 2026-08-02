@@ -1,0 +1,415 @@
+/* ================= GENERAL ================= */
+
+
+*{
+
+    box-sizing:border-box;
+    
+    }
+    
+    
+    body{
+    
+    font-family:'Segoe UI', Arial, sans-serif;
+    
+    background:#ffffff;
+    
+    color:#333;
+    
+    line-height:1.6;
+    
+    }
+    
+    
+    
+    /* ================= NAVBAR ================= */
+    
+    
+    .navbar{
+    
+    background:linear-gradient(
+    135deg,
+    #003366,
+    #00509e
+    );
+    
+    padding:15px 0;
+    
+    }
+    
+    
+    
+    .logo{
+    
+    width:55px;
+    
+    height:55px;
+    
+    object-fit:cover;
+    
+    border-radius:50%;
+    
+    }
+    
+    
+    
+    .navbar-brand{
+    
+    font-size:1.2rem;
+    
+    }
+    
+    
+    
+    .nav-link{
+    
+    color:white !important;
+    
+    margin-left:15px;
+    
+    font-weight:500;
+    
+    }
+    
+    
+    
+    .nav-link:hover{
+    
+    color:#ffc107 !important;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* ================= HERO ================= */
+    
+    
+    .hero{
+    
+    background:linear-gradient(
+    135deg,
+    #003366,
+    #0066cc
+    );
+    
+    color:white;
+    
+    padding:90px 0;
+    
+    }
+    
+    
+    
+    .hero h1{
+    
+    font-size:3rem;
+    
+    font-weight:700;
+    
+    }
+    
+    
+    
+    .hero p{
+    
+    max-width:700px;
+    
+    margin:auto;
+    
+    }
+    
+    
+    
+    
+    
+    
+    /* ================= TITLES ================= */
+    
+    
+    .section-title{
+    
+    font-weight:700;
+    
+    color:#003366;
+    
+    }
+    
+    
+    
+    
+    
+    /* ================= CARDS ================= */
+    
+    
+    .career-card{
+    
+    border:none;
+    
+    border-radius:20px;
+    
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+    
+    transition:0.3s ease;
+    
+    overflow:hidden;
+    
+    }
+    
+    
+    
+    .career-card:hover{
+    
+    transform:translateY(-10px);
+    
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
+    
+    }
+    
+    
+    
+    
+    
+    .card-body{
+    
+    padding:30px;
+    
+    }
+    
+    
+    
+    
+    
+    .icon{
+    
+    color:#00509e;
+    
+    }
+    
+    
+    
+    
+    
+    /* ================= BUTTONS ================= */
+    
+    
+    .btn-warning{
+    
+    background:#ffc107;
+    
+    border:none;
+    
+    color:#212529;
+    
+    font-weight:600;
+    
+    padding:10px 25px;
+    
+    border-radius:30px;
+    
+    }
+    
+    
+    
+    .btn-warning:hover{
+    
+    background:#e0a800;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* ================= ASSESSMENT ================= */
+    
+    
+    .answer{
+    
+    padding:15px;
+    
+    font-size:1.1rem;
+    
+    border-radius:15px;
+    
+    }
+    
+    
+    
+    .answer:hover{
+    
+    background:#00509e;
+    
+    color:white;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    .progress{
+    
+    height:25px;
+    
+    border-radius:20px;
+    
+    }
+    
+    
+    
+    .progress-bar{
+    
+    font-weight:bold;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* ================= FOOTER ================= */
+    
+    
+    footer{
+    
+    background:#003366;
+    
+    color:white;
+    
+    padding:40px 0;
+    
+    margin-top:40px;
+    
+    }
+    
+    
+    
+    footer h4{
+    
+    font-weight:700;
+    
+    }
+    
+    
+    
+    
+    
+    footer p{
+    
+    margin-bottom:5px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* ================= LIST STYLE ================= */
+    
+    
+    ul li{
+    
+    margin-bottom:8px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* ================= CARD ANIMATION ================= */
+    
+    
+    .career-card{
+    
+    opacity:0;
+    
+    transform:translateY(30px);
+    
+    }
+    
+    
+    
+    .career-card.show{
+    
+    opacity:1;
+    
+    transform:translateY(0);
+    
+    transition:0.6s ease;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* ================= MOBILE ================= */
+    
+    
+    @media(max-width:768px){
+    
+    
+    
+    .hero{
+    
+    padding:60px 0;
+    
+    }
+    
+    
+    
+    .hero h1{
+    
+    font-size:2rem;
+    
+    }
+    
+    
+    
+    .navbar-nav{
+    
+    text-align:center;
+    
+    }
+    
+    
+    
+    .nav-link{
+    
+    margin-left:0;
+    
+    padding:10px;
+    
+    }
+    
+    
+    
+    .career-card{
+    
+    margin-bottom:20px;
+    
+    }
+    
+    
+    
+    }
