@@ -1,6 +1,3 @@
-/* ================= GENERAL ================= */
-
-
 *{
 
     box-sizing:border-box;
@@ -413,3 +410,8 @@
     
     
     }
+
+.members-card {
+    opacity: 1 !important;
+    transform: none !important;
+}
